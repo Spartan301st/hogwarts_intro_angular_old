@@ -1,0 +1,6 @@
+<!-- for triggering the event and emitting it -->
+<img [src]="postImg" alt="" (click)="imgSelected.emit(postImg)" />
+
+<!-- auto grabbing the tags passed between this components tags in the parent
+component -->
+<ng-content></ng-content>
